@@ -1,1 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Defaults */
+
+body {
+	/* Default font styles */
+	font-family: 'roboto sans', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	/* Default margins and padding */
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'raleway', sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+h2 {
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+	font-style: italic;
+}
+
+/* Nav Bar styling */
+
+nav {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	width: 100vw;
+	height: 80px;
+	max-height: 80px;
+	background-color: royalblue;
+	flex-wrap: wrap;
+}
+
+#nav-container {
+	display: flex;
+	max-width: 1920px;
+}
+
+#nav-left {
+	width: 50vw;
+}
+
+#nav-left p {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 900;
+	color: white;
+}
+
+#nav-right {
+	display: flex;
+	width: 50wv;
+}
+
+#nav-right ul {
+	display: flex;
+	align-self: center;
+}
+
+#nav-right ul li {
+	list-style: none;
+	padding-right: 70px;
+	/* background-color: black; */
+}
+
+#nav-right ul li a {
+	text-decoration: none;
+	font-family: 'raleway', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+}
+
+.hero {
+	display: flex;
+	padding: 200px;
+}
+
+.hero .hero-left {
+	width: 800px;
+}
+
+.hero .hero-right {
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	width: 800px;
+	background-color: royalblue;
+	color: white;
+}
+
+.hero .hero-right h3,
+.hero .hero-right p {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.hero .hero-right p a {
+	color: black;
+}
