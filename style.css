@@ -117,3 +117,18 @@ nav {
 .hero .hero-right p a {
 	color: black;
 }
+
+@media screen and (max-width: 1440px) {
+	nav {
+		width: 100vw;
+	}
+
+	.hero {
+		flex-direction: column;
+	}
+
+	.hero .hero-right {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
