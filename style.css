@@ -118,6 +118,13 @@ nav {
 	color: black;
 }
 
+#services-container {
+	margin-top: 5px;
+	height: 400px;
+	width: 100vw;
+	background-color: royalblue;
+}
+
 @media screen and (max-width: 1440px) {
 	nav {
 		width: 100vw;
